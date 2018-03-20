@@ -32,7 +32,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped type="text/css">
-$background:#ccc;
+$bg:'red';
 h1, h2 {
   font-weight: normal;
 }
@@ -45,6 +45,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: $background;
+  color:#{$bg};
 }
 </style>
